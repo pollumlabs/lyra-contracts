@@ -1,0 +1,32 @@
+{
+  "DREX": "0x9a3A6208Cd60fe1ED72E3C960b2F3766E9431f9E",
+  "TSELIC29": "0xbcec0f92B0D930ec010c8EC01C9B5b6DA3e3b6b3",
+  "MockChainlink": "0x42517A79504EdC7999604CC0826dF6aA05D53E5d",
+  "InterestRateModel": "0xd6b868ac443d87eC35C90Aa27955FECbFCD5EfC9",
+  "rBRLLPool": "0x453657d2B183832B4E6d0308180297A10dCecA6B",
+  "WETH9": "0xB3fc72cf1B88D31247cB0f53566e3da45646E3A9",
+  "UniswapV3Factory": "0xcE1b413dCe18381371d197edfC350d24Fd132Aa6",
+  "SwapRouter": "0x5c7723721C48C761DFC8f46d553B8c9755F492e1",
+  "NFTDescriptor": "0xF4D83884bc1C7a718E07b58E5657EBbDE3964e98",
+  "PositionDescriptor": "0xcb2FE29DD0C9890d98E14feCb1A0AA5e21eA0f84",
+  "PositionManager": "0xAeD456863d8A96524D1411570624C2A5d748Ba52",
+  "done": [
+    "grantPoolManager",
+    "createUniPool",
+    "approveUni0",
+    "approveUni1",
+    "mintUniLiquidity",
+    "initLiquidatePool",
+    "setInterestRateModel",
+    "setFeeCollector",
+    "fundFaucetTSELIC",
+    "fundFaucetDREX",
+    "approveSeed",
+    "seedPool"
+  ],
+  "UniswapPool": "0xDbe1F14d56b1e4186b9a64f91D2Eaf8583B288bC",
+  "LiquidatePool": "0x8754cEf8E2Fb51640C7151BACfaDe3dA94D2d147",
+  "DualTokenFaucet": "0x512700177C2Ea3B296Edc2c3D9F93da264f9b43f",
+  "chainId": 11155111,
+  "deployer": "0xca6BE454C0BF2b085E03C7AbF2a30643C235190c"
+}

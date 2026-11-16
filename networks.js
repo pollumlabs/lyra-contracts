@@ -32,6 +32,15 @@ if (SECOND_PRIVATE_KEY) {
 }
 
 const networks = {
+	sepolia: {
+		url: process.env.ETHEREUM_SEPOLIA_RPC_URL || "https://ethereum-sepolia-rpc.publicnode.com",
+		accounts,
+		// Base fee sits near zero; Hardhat's default 1 gwei tip overpays ~50x.
+		gasPrice: 20_000_000,
+		chainId: 11155111,
+		confirmations: DEFAULT_VERIFICATION_BLOCK_CONFIRMATIONS,
+		nativeCurrencySymbol: "ETH",
+	},
 	ethereum: {
 		url: "https://rpc-evm-sidechain.xrpl.org",
 		gasPrice: undefined,
